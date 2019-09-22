@@ -1,16 +1,17 @@
+# -*-coding: utf-8-*-
 """
 - Mau Ngapain BROW Lihat' Script Tools sederhana ini
 - mau di RECODE YA
 - seperti Tools yang kemarin dengan menggunakan BASH
-- pass Gua lihat di RECODE DAN tidak rapih 
+- pass Gua lihat di RECODE DAN tidak rapih
 - dan isinya Apa saja, begitu menurut Anda iya kan
 -
-- jadi Gini BROW 
+- jadi Gini BROW
 - jika anda sudah tau bahasa python python2 python3 Bash C++ dll
-- maka silahkan buat sendiri YA 
-- nah jika Anda belum tau 
-- maka silahkan pakai Tools sederhana ini 
-- 
+- maka silahkan buat sendiri YA
+- nah jika Anda belum tau
+- maka silahkan pakai Tools sederhana ini
+-
 - NOTE :
 - jangan di jual belikan Tools sederhana ini
 - ke teman' Anda maupun orang yang tidak kenal
@@ -21,5 +22,542 @@
 -     <{ ---BERBAGI ITU INDAH--- }>
 """
 
-import marshal,zlib,base64
-exec(marshal.loads(zlib.decompress(base64.b32decode("PCOO2PC5N4NUS4SNKGJC2WNS4XXW7O75XHNLKJMKSL6L3XW5SFEESXCJSQZCJVZLNV3HKQ6OLAOPG43HQYV4X4B63XSSDQACYEOQFZBJJ53S66J24CALYJAISKT7ZAJAXACAREEHXPD3ZZMQEBHZPKXKTZQQ6OOUY7TJEDMSCXGWMV3XOVK7KV3VKXG3IS2M73C6D6YRPTO37BU4ZHMCNJBRM33LC2UMNXDPY7A73PWPH43RWYM7P475NSZZ7GKQGLAEZSAPGJZYA3I6MHTCBWZ4ZLGCG3DTRCMUPWPGGAZYPWHGGFTA5M6NCGVB2ZPGGG3HTHEZENWPGBBTI7M6MGHBTRSFMP33OWFJTR6ZB5RSYZU6MA7QFGKOGMF74APWDA5Y7RISHIMYETSJFDHF5HLB4ZU2MVE5CFK6MWNWXASOXT4J7IILH42QNVPMBZD4DMYUJ2DCN4PJO6SXLXXF25JFKR2ZLKUWIKIEJPGWTPDPLXSVXR35KDJZEY35WXN52U6SMEXZO2EE5RGYFWMXO2FGZYZPGLTFZYY7GHOKTRT6MODFFYYPGXOKLRSOM64UXHCMY64UXHGMZ64UXHBMYCNWPGK33PQYWOXDE44SKXRMZ6KZXSBVKAVHNAFJGJBG2OMMYYBXATNKYHGFWPWIODB27AAGXLRRBOLNSQ7KY3THKZS5M7TCGVXJMPHG765MOOCFP7YJSU7KNUVTOHV3YKD5JOSU7KHUL3OLUICKL5JOSUZK2XRNMRKRXJHKLT5I6RC5ZOREJKPVF2P3KRNIWW4XIXUW2KT5J2ST7DS3K6UNJH4IB6UAO5OGKBXBR7QPQXOFPWMX372L3MBYGM72E5T7DGLX2BCM3CG3S4ING7ZESSEG2PM7TNKUE257RFAX6IFRHD4H5XP4EX6WHUBHLFZ7JM7JXGNKZH6JHB6PSJ7H4ZSWZHHSR6LJEWPVJ4WUOZALMDLS2M2XPEDSKNFHLMXGMGXFJNIMU4KIGXA7PT56CO4PGIXUF4X2EP3JNFGP7HKOPM7M5MMPGGD3CVR276WY3MMI3B4E4PKGKD7GPIAHWDO244WNM7TZRS6QB7MVDND2EWIXLEGG6CY5G75ZD7I3QDDVCKQPCWPLX232BC4J5WLIPESNRDTDPMLOKXSWLNXNSQZKTZORGRLO2WZJVYZIWEL2GZUYS3DJCNRFFZLJTW4ELOYTZO3SBYFY6YSV5RSGYLBWDJZ46QS6ONO2G2WULKINRFKWRW75AJ27ZS47PIJGM5A3TYLR2PYIZ6RWG5W55NDKRVWQOCXLHTPWQVC55ZNKNZMURW5EDA27GFVPNZHEURG6EXGFATYQ2XRWDSNRW5OT4A22XPTL2WAVVRNIXPXQL4ZROGAD6GZ357PPBZ7VLZX4Y63OUK6VVXTS7CR7TT3EC7LHRPUQL7JTHWSKOZB6GXCWCGNDWCLNL3MRKA735G3JYVQZQSWRS3VLAKRPFATLHF22GZWBLDKHTU3Q3WOYMY6SEDKQY2HC3JK2HDDYLUGREPRSZ7XBV3QUO3A4OLO2VYQUNJLKS5YZQ3M6NXKBUDVH4F44VROQJS5TO4I2IETNW23RAOYCGSLTDNT5W7OH56CNWMUNGJPUK4LYCHZLWBUJM7KYURWJ4BZ7VWQL64CNFBKCXPXHURUVTMWVQYQTKBLDJSRIDWTHKIFMNUNQ553M2OUPBNFOV7UTY26UHUNWXCGKXDH3C3WVLK6AYA6X4SPW2JHKT5ZVU434QOXRRVIWJ5T7G2N5HV5XWTRUFXXGXEFMGQGNHBUVW5SDQRUTPOW7V5TWJNXHAWDGEXPVVCHZDP3BTI5NBKFLODYTZLCTD2OHMQAJGQKMRZQHEFETEFGIMMOBJV5IYNXJ6X6YLFBYHA7Z7EI2XETYBT3JUHY5K5FW6CKCMW6FJGDHAMWZLRPFWWPBVHBEVAOPNFFVV5Q5LCJ65XMOI3J2CRVZWUOKYXNAT7FGQNHSFLVEYCBVX63LNEXDRPNFYIN3VBSWSYNIZCZSDZFFZROEDV5SPS2ZBSZMXO3TW4A7QRYJPNMV4XBIUBW3ZB63OA7RMF4BJND4MYMYQLVNOMWZXUW4HMO5QUZBNQVFUTVPCQ2F2YXOHEB2E3K33FC2XPM2MW7WTUPZOOHBNSSAYQTVQRTRP4MQ3QECCJVN3FB2XYHTKNBMFKZDPJESR6VVL7NBVIA6KZBQ2VRQFFU7AIOFDANDFIYKIAWDFJYEYBKGKRQFIBMOVPAASFIYKOAZHUTWHECTWQHW4S2ORCOYCBTXAQ7IGSVLIN6W6JUTD4CPQW5HS5UIZUHTWVVUSU7V63D5MHJ3C5YRSJTGLG5XTJYNAWH45ZOS4IBYNBGIXNAUYJBEWVPZW3WXLFJVZNGXPLFDBQHJTBT3DIF63ZTUKBNG2VCLQYT4UVICXNPLSUM7KHFN6KHF2N2FE5PD7PK7YK53YZP5VW2VZPR2LFSTCWZKQ3EL52WORJS25BMF7NTMY6BCHULT5ESO5KVVLSUDTV2ZKOZUVIE25U35NAJU2UW4AWKPM4LYLPUB5WMEXL5EONNINJZSQEHAERJOZQIJZVEGWRBMAGVRNL5JA326FTVLRIPUYHPBWDRNAAUWGFUL57JZMG4NDWL57XU7DBWMHY3CEPDNJDOI7MHLCEKVXTPBUP5UYGSOUPYWDQBCHGEMMJZBZEYTTCGALNJHWH6SBA4OJK36422GY3QWTMT374HIOD44HJCZRMYRSLKTGMLMOOHNUHGBD2AV7J5ALWEGU44W3JOKINTJNJZ4SHYP6DRZIBSXUJNP7EVEXRFK255JZU2RL3L2KSNZ6UQ3JZWX52MP7OG54CXQM3X2UW5S5IUHWNJEDSFHVGWJXLN2CZTX2RTHO62XXWR6VKHRW2HMEEZXS5HGTWKFHARFPZYKZMNB3RNBMOZUWB4REK5XSAFTCLWMUWJGPWE3PUX72BNKAAI47ZKJBY3JWDJ4E7YCXO56DQQ4KWVQ2FYNY62WA77P3VYAG7EDK3IVEG3GKIIRZXZ5KCH2INKFRYCWVX67THY5G2I2QSGZ7BKGWXNNRYILI3ESUNQ2CXCRHCFSPISHMBTVBN5B73V5HUWZ6XFL5CLBZO3IOEMKWPEM2U7MMD622OEXLX5GH6EJKYSVLMYFOD7XDYDCBWCCTO5WTI3ZL7TRUWH26LYHJT7YWP5JYWT6EDFTS2O2ETUWZKXODAT34DAOK3NQAJRX4623SPORNBNHKXXWXSTPWNER3DM5TGL4FENUZFQ2WWCGLWUT3NRG2GI7CKDWS2PCWU45R7WYO2ZLRX4LIXICFYABJ2QJCIH2GPXCLHZ6JRDGQLUIX27TRQJHB6OCCGBLF3L3MHFKIADK3FYMXMBJ6JGAGOYW4VITQV4SP6PJUNLO5SOWIL5FKJV7TQZMVUYLV4752IOBMZ65GEQEWNGHI2WRENBNM42OMMD5NAOC6VLBJV3SUNRJP3EKHXMXBNQT6MX7H5SDUI5ULXRODA4ZSVINBTSFYZUJ47AKJH6T6J6GHLMQF7GID3ZTJEMCXWQS52IMLRKCKZB6GOBXV5T5N434HW63VNVINOVVAIQM65SW2NPDLYTH2BRVDKPUXZ5BOJA5H4UKRC4G2VRVNUAUZ3K4MEM4TLLHKYZOASUQYHG7HGMUW3GEDKUUW2INO5HBS3R4ZZBSEADKFAYNACTDYGAHPQM7JJNWSIQWWQ7NI6N5X6BQT37WQBXKEOMKAZNAR5RBEGAGD2LDTRWOSZOW7NR4DKMROOVGURP2ZV5WG5HNAAEZGSYC3OUNBAZD2GVONVKF6YWOKNWAQYJH7CPTBVH6RTCUMYWDQTO57EMLFI6R5WBHYOY75PRW2RWYW7B47AWW2EIJ6SZ32HME32XGTSHSK5WZJEIIIMCW2FBS47ASVAPEBQTBQYAGQNBUNECFFT4SEJUXGC4YZSIVJSXAMRFPWUWZ325KUVB7NABLVSIRWZA3VRDHN5VGBLOFFAO32K7PRD36URYYP2CZITXS5UP32NEHV35IYC4AVPBL5H6RTUL3R7UP2OORXND7J7RFSLPH2FMYKCAUSEPE3QSHECJC27PYP6JJEL3X4XYUXGSAUTFLYCGBI34Y5DGRFPJ42F5UB5F6RGSPOUAFD2U4AY2J54X6ESEDALAO5T4ITYEPX7STES6WOKXQXYFDZF7ULYI32D4I3ZXYRXUHITXX4PEK3ZDSVIFJYCOKI54J5DGRHPIU4VJUJ35PELU2KVLAIECRMVLAJECTEKXQWEFCZK6ARIKOQD5JKOVSJUG7SNAFSETIUQ7UVIBVCVMFPAO7CPV6GKMR2OE4I6RERGOAVZCVUAQEL6RXLKTJ6EENH6HKJ4KCAU7FLAINJHRRORDDSNUPYQZERXHVJYHXKXQHGSNDJY2L4IA2E4DKE2DMVHAA6ZFTI7KMZIDGXHEGMRIVFCUYAKLJ7QVWSFMLND6ESJENS4VLBLICMVE6HZ2EYOTJT7PZADTF6EN53CQNJUEV32XETNLXKVWQ7L5FDZVNMUE3GV5VO7NJPIWU5W3LTHXODNMEEN4NC7QLAUWGIFGCWFOG756BUNDZHTK5CFMPS77O2TUBQJR2SBB4GOZN7EUI7ZTGU5RRA5TJKKNL4PFRGDLY2FXWMWGJNV2YTVN6R4TYU3BD5TGMAM472YELVULD5FIPGQKPJDXYVVI2VNF5QSWKML5G6MKECD5VBHDXCUMKZ2HE7BJDXBZU4C24YLHDR46UUMINE7FVKHDSB7MGKFXDJOX4X2U4OIPEM3MXMEPZIU5A3ZRMFX6RB5UTOAGNXMPR5GC6C4LU5CNB4T2ZL5ASPO74XFSNQSK3O4NC73JKL4CCPTPMBJTCPQ6TSZVYFTZTN5KKXXKEU6RRC6JGEMOTIBNXYMBV3V2WPFXDLV7FVATMHU4WWKVJMZ7RXSCQ7VCMSCQ4W2YOJ4MWZTAG25GFHNHIPJLDBVO3K563JTYK37FVSPI3HCVR3XVKH3TMODFHSLXAZ7DM3MPC7QLSWABH6CKKZKWSEOLIWCUSPUCFTR6ZJED3MUJGHOKIUP3JLP357DW2LNOVGSGW7SIUYAZ4RSG2M67KUMYNU4BGUTR7DEEDA7JIAFYBPVUKF5KQCZERCTQHNBYAWI3BBIDG5QNB4STQFKIGBBRW5GPBF2BNC7TM3GGIUQJE5SZF5YRYEO4ASLZYKDWOKDZ4YLPTV6TCPXNSPY5OANXLU33OGVVMQJLCQNKMZMUQDELSUIGOBBA7DGMPA4AJSEEFPBAICHKVFJHJB2ISEMEDQEIXKRIYDJZP6HQINEP5BA6FQPHE5EWEDILGEJNFCBLTVBCIAYWEDEPZ5QPAU5QPB7CW4RTFG4R5SXPLMA3RHMBLUJJPIGJ6CIGB6HMK4G2MU4C2GK6NVQLQXLG3BYN2H274PAW74NX7DUAEMNHJ5ZOULKXSOXGLNM2SOXFP4EMNWFQJAIGH24CEQBTGHJ26NUMKMS3RVY63WBSK3H3IA2FJ4XMN43TCY4FJNVQJ2FDVDUTDNOE4VIFXWK26Z3YT2HPSP3X37MEVCKA2W2ORBZ6EQRU6D4U4FA4ZMAN5EJI24CKREII2IZBTDWJELYQGQIJEYCYBIVGE4UMA47AEWXBMXJRXFDPXLJ2USWDW4UTG7UUBA26MUTOBFR42R5JWVOXLPWI6VRTISE46OJ4MRNKZJVJVJ7NAVSUC24Q3CXOORQAUBSXXOMGEFLRISG6KKA4M5EGC3GJ2GY55GHGIUXKLXAQG7TLSG2E6O3OBWM6X7MRSTAZCYCBGNTLE2HVCMNUGCPJBF3DQKFZKSBO6GHK5UO5IB26LUIOTA7KAAHKT3GKWBTTVLI4SGBGBHWLR76CABOEHU2ABVSILWN4CRHIJR2ESS2VOA32ORFG2FMHKT3YXRDKP75YHEJ23IWLUERA6CR75HQSBI6WU6F4I27SXYDBRPGT6RKC5OEFT4OQ6KQKCR7IZ7MOYQWAEU73EPZ7YZXXZ2FEHUI2K5F7PTXQYC4HBCHV574OT7KQ563B2AMTMHGTIMLKPKJAOAH2ZKSAODFAKTRLICMZSYCYENAMOWNCOGDZCYOE6OVBA4JU25DHDRIIZC37LJLUFECF2DSBK5BFAVMQ6QWQISIX5XBQ73P7CV6VR5XG2QZ5TCFK3P5YIQDOASNN3DPYWYNVKNJOA3AFAVMRQGICJCYOQAKLE6OCWL765UTUHOR56B5YRYMGEOGIGPNS5VZZARZYT3NWRSVP3RXSXIIMGHVS7TJDPYKWH5NYPKPET3XO7PJKQ56LWC7U2IPZNJ3PHNKJ4QDP6WOEA3MEM7CQG7BVKX2OMMZAWINZMS6ONIQ6ZDJXKWKJFSC3AMFKI42LTXDKUVQJ4Z2WWRZFXG44A656V5EABTBFS62Z25Y55U5HSKGSTRM6XS3JRIYGAKN4RTDAFECRWKPZO4TY4LWLZJXH7ATZSVH2JVX4GR3VQ3WWBLJARASFNXXEK5LDJFF5OS455ADT346GXSHNCCFMUALEM5JNTKBDX43ZOFUGJGTF6YCLVOMWLPRHFXRCXBDE7SW4FVKKUFBTL5NIAGFUBBSGRCM5SPD3H6BRLMKTP7VIHWH7QP3I7PR22W3AXLOHFDHYFGS34TWBBD257NMRXYRVV32TH35D24R2UTNBPX3TMRJQ57MEQ43CATVM4DCR6H5OX7ZQXQMREZYUVLUWTXWV456CH62DGEXR4B4734A6D4JDQYLY5QBIYDGJ6GQUDAEYPR6F7ENAXOOJN2ZIWMFFRZFNPQN7N3TZ25SFKAZUAVHTMVNP5AZNYZVPVMDKDQJRXGC4RTFG5IJ5ADA2B6Z3BBRODD37XWDAMRXC3OMPWW2P32HLAH7CBPN57PTPIOCFHBDQUEHZB6RCSBRHFTAIUEXCFICGDVXI4ZOG56YP3HZUWTP6SZRJSWK67LMNN7MNFWFWFIK5NFIDFXPTDAOBE4FLSUAW4PLQZXRRLQ5SZDQRPPKFUNLQC2EN4SZIKP6YVZL6ZRYDGRR4OGCKPCB4RXJTIHGAPBURQXS3E4J23UXKCPNI773TLAAM676QB2YD3TSD437YWN5J2CFWPBIGY5KAUEUZSQLOSZMZZ4UJLDLOS7VXIDDOPUBTVPM76T5XB3BPNZTXU4CTKGGND4M3CEXQVWB5IY6RXF5OJE73UKBPBP5XHQV3ZMKTYHBWUO4L3AA7T6UNZKGEIHFXZ3ZVTXNDRKN7BW4LJJC6CGBSWYIVNQDZJFWHTUAYO5F2RCHKRGWDN6RH6RLBX2ZV72UUG4CORJUPV5MPELWP6JN3MG5G4NHFYEXRRURODYFC5S4K3Q3GJ5XVEFHWVBBS5B4UZHXKN2YWUPLBYUPPPLIDQHIJF2LE2F3NDGUOI6VWTT23U2NQD72P52HY7POFB5TYQ75TMX4CBXOYKXPLSTW3YZNELNRO3K2YMGJMJ6GQUHGC5CRI2FN7AY2H7QZQXNVA5UG5UMTN6WWZ7DJUZIDMLDUTFKYI5K74JWQ6YMVRSCW2L3BSUG4P4RQDG3DQTZYENS2KIWHJ3EG4BZ5M7SPIVCH27TW35N3FAQKA6GIQ7VI7MWVPHPMZ46UFIYNGVIYBKHLPDJX6WG64GP77LTQ3GBJPJFE3SIW6LTP2U74KWXP5MP664H3RZX4LQCEPYSHYRR4PC73LZ2MM72B4IIA2ACFKVP5UIY5OA2NN3UY3LXXV3RKV7DGA3NUZ6S5FUTFCA7EKFJQDIUQ4XXP2DLMBQZDK4TJNTVGGJ56P6FX5Z4NWU7HPDNVHPYB3FUNJ4DN26BUT224FQ2YLVXSFK6VMANLA6XFPLQ6YLGOXVOZMEIUV5HTNQRR3ASA5KVUQ234YSUXULH7QCMXIPQPCSH5FMXA5OXWPULAZXQJZ435YYJCMLUGUGGE7COZJKE2GXCMHD5BXW7BCJHHWFSNQ3MP5PUDZ65KKIOIDQYKD4D5FYRDRFYBEDWDO37QCZ4WJ7BDHKZA46LKR3FTUPEYEGQ3F73AAVGTZG4S5NPSJEVIRO64CGKQG2QSUUOQX6STA4TZWPXNX375AOZKP3CIAATIOMKZ5QNW5TYVMNIRERAVHZX6WXHBHWHCTN4GHTD6IV4JE3Z5556ZTDFHH434I2PJRIGFUTA6WJI5DYGXXHTBQDGEMCJCIWMKHY3ONK62FUY5CQZQ2XCKPQTMV3YQRSCAEP3B7B5XBSIJ5XG25LM3MPLLJNHL4GTU3ONWMY3UWWC2WQXMF2ZVDE2LFBAFPULUBD4USZW7QWK7UGO3UOPY3DMRHBEL66QOX5ZTH5HQUZUN2EHLCJWKGYSKVF6OFNNIOVJPVAQ7KDDVHQEHI5HEO56P6Q2H3NAH3D6KCET4426S35ATVIRFSK74D7I2AF4RJPPFCHTP6WGBNVL2YDDLJL7ALESDGFZ7AM636IB2L44S4FIYOHUVZGUG6R4FX2ZK2M4D56U33IOTUMFUHTUEPQ6PI5JIGU2DY5DOGJ3CCQRNDYFOZM2HPSHABTCY55GNYS7NH3RO2FAM======"))))
+import random, sys, time, os
+Hi = '\x1b[1;30m'
+GL = '\x1b[96;1m'
+BB = '\x1b[34;1m'
+YY = '\x1b[33;1m'
+GG = '\x1b[32;1m'
+RR = '\x1b[31;1m'
+CC = '\x1b[36;1m'
+B = '\x1b[34m'
+Y = '\x1b[33;1m'
+G = '\x1b[32m'
+W = '\x1b[0;1m'
+R = '\x1b[31m'
+C = '\x1b[36;1m'
+os.system('clear')
+
+def ketik(s):
+    for c in s + '\n':
+        sys.stdout.write(c)
+        sys.stdout.flush()
+        time.sleep(20.0 / 500)
+
+
+ketik(G + 'Assalamualaikum WR.WB')
+ketik(G + 'Selamat datang di pemograman Tools sederhana')
+ketik(G + 'kami...')
+time.sleep(1)
+ketik(G + 'semoga hari anda menyenangkan')
+print '\x1b[0;1m------------------------------------'
+time.sleep(4)
+os.system('clear')
+print '\x1b[34m+--------------------------+'
+print '\x1b[33;1m|    \x1b[32mINFO TUTORIALNYA      \x1b[33;1m|'
+print '\x1b[34m+--------------------------+'
+time.sleep(1)
+ketik(G + 'jika di suruh memasukkan Username dan password')
+time.sleep(1)
+ketik(G + 'maka silahkan masukkan Username/password Nya')
+time.sleep(1)
+ketik(G + 'silahkan bisa anda lihat di Nomor angka: \x1b[0;1m2')
+time.sleep(1)
+ketik(G + 'di situ ada Username/password Nya ')
+time.sleep(2)
+print
+time.sleep(2)
+ketik(G + 'jika sudah Masuk budayakan membaca BROW')
+time.sleep(1)
+ketik(G + 'dan instal dulu')
+time.sleep(1)
+ketik(G + 'bahan bahannya Agar tidak ERROR Nantinya BROW')
+time.sleep(1)
+ketik(G + 'jika nemu hurup [Y/n] ketik Y Lalu ENTER')
+print '\x1b[34m----------------------------'
+time.sleep(5)
+os.system('clear')
+ketik(G + 'Loading Harap tunggu\x1b[36;1m...')
+time.sleep(4)
+os.system('clear')
+print
+
+def meizu():
+    print '\x1b[34m--------------------------'
+    print '\x1b[0;1m[\x1b[31m+\x1b[0;1m]\x1b[32m MENU:'
+    print '\x1b[34m--------------------------'
+    print "\x1b[0;1m[\x1b[31m1\x1b[0;1m]\x1b[32m INSTALL DULU BAHAN'NYA"
+    print '\x1b[0;1m[\x1b[31m2\x1b[0;1m]\x1b[32m SOSIAL MEDIA'
+    print '\x1b[0;1m[\x1b[31m3\x1b[0;1m]\x1b[32m TOOLS GABUNGAN'
+    print '\x1b[0;1m[\x1b[31m4\x1b[0;1m]\x1b[32m HIBURAN MUSIK'
+    print '\x1b[0;1m[\x1b[31m5\x1b[0;1m]\x1b[32m KALKULATOR'
+    print '\x1b[0;1m[\x1b[31m6\x1b[0;1m]\x1b[32m MATIKAN HP ANDA'
+    print '\x1b[0;1m[\x1b[31m0\x1b[0;1m]\x1b[32m \x1b[31mKELUAR'
+    print '\x1b[34m--------------------------\x1b[0;1m'
+
+
+def install():
+    os.system('clear')
+    ketik(G + 'NOTE\x1b[0;1m:')
+    time.sleep(2)
+    ketik(G + 'jika nemu hurup [Y/n] ketik Y Lalu ENTER...\x1b[0;1m.\x1b[0;1m^_^')
+    time.sleep(3)
+    os.system('clear')
+    os.system('pkg update && pkg upgrade')
+    os.system('pkg install git')
+    os.system('pkg install php')
+    os.system('pkg install nano')
+    os.system('pip2 install lolcat')
+    os.system('pkg install python3')
+    os.system('pkg inztall python2')
+    os.system('pkg install python python2 vim figlet curl')
+    os.system('pip2 install bs4')
+    os.system('pip2 install requirements')
+    os.system('pip2 install requests')
+    os.system('pip2 install mechanize')
+    print
+    print '\x1b[34m--------------------------'
+    ketik(G + 'PENGINSTALAN SELESAI DI INSTALL BRO')
+    print
+
+
+def sosial():
+    os.system('clear')
+    ketik(G + 'SEDANG MEMBUKA MENU SOSIAL MEDIA\x1b[0;1m.\x1b[0;1m^_^')
+    time.sleep(2)
+    os.system('clear')
+    print
+    print '\x1b[34m+---------------------------+'
+    print '\x1b[32m|\x1b[32;1mAuthor :\x1b[0;1m Edi               \x1b[32m|'
+    print '\x1b[32m|\x1b[32;1mFB     :\x1b[0;1m Edi Garsell       \x1b[32m|'
+    print '\x1b[32m|\x1b[32;1mYoutube:\x1b[0;1m Edi ID            \x1b[32m|'
+    print '\x1b[34m+---------------------------+\x1b[36;1m'
+    os.system('date')
+    print
+    print '\x1b[34m--------------------------'
+    print '\x1b[0;1m[\x1b[31m+\x1b[0;1m]\x1b[32m MENU:'
+    print '\x1b[34m--------------------------'
+    print '\x1b[0;1m[\x1b[31m1\x1b[0;1m]\x1b[32m Follow Facebook'
+    print '\x1b[0;1m[\x1b[31m2\x1b[0;1m]\x1b[32m Follow Instagram'
+    print '\x1b[0;1m[\x1b[31m3\x1b[0;1m]\x1b[32m Subscribe YouTube'
+    print '\x1b[0;1m[\x1b[31m4\x1b[0;1m]\x1b[32m User/Password'
+    print '\x1b[0;1m[\x1b[31m0\x1b[0;1m]\x1b[32m \x1b[31mKeluar'
+    print '\x1b[34m--------------------------'
+    print '\x1b[0;1m[\x1b[31m+\x1b[0;1m]\x1b[32m Massukan pilihan Anda\x1b[0;1m:'
+    pilih = raw_input(W + '\x1b[32m=\x1b[31m>\x1b[0;1m: ')
+    if pilih == '1':
+        ketik('\x1b[32mFollow Facebook Kami\x1b[36;1m...')
+        os.system('xdg-open https://www.facebook.com/edi.garsella?')
+        os.system('clear')
+        print
+    elif pilih == '2':
+        ketik('\x1b[32mFollow instagram Kami\x1b[36;1m...')
+        os.system('xdg-open https://www.instagram.com/edi.nasa/')
+        os.system('clear')
+        print
+    elif pilih == '3':
+        ketik('\x1b[32mSubcribe YouTube Kami')
+        ketik('\x1b[32msilahkan buka Youtube Anda\x1b[36;1m...')
+        os.system('xdg-open https://www.youtube.com/channel/UCr1X7uS9_FEjITKDah2FxXw')
+        os.system('clear')
+        print
+    elif pilih == '4':
+        ketik('\x1b[32mSedang membuka Browser\x1b[36;1m...')
+        os.system('xdg-open https://hokiciki.org/CfTi6')
+        os.system('clear')
+        print
+    elif pilih == '0':
+        ketik(G + 'TERIMA KASIH SAHABAT YOUTUBER')
+        time.sleep(2)
+        ketik(G + 'TELAH MENGGUNAKAN SCRIPT PEMOGRAMAN TOOLS KAMI')
+        time.sleep(2)
+        ketik(G + 'SEMOGA BETMANFAAT\x1b[36;1m...')
+        sys.exit()
+        print
+    else:
+        ketik(G + 'MAAF MASUKKAN PILIHAN ANDA TIDAK TERDAFTAR')
+        time.sleep(1)
+        ketik(G + 'SILAHKAN DI ULANGI KEMBALI')
+        time.sleep(1)
+        ketik(G + 'TERIMA KASIH\x1b[36;1m...')
+        print
+
+
+def tools():
+    os.system('clear')
+    ketik(G + 'SEDANG MEMBUKA MENU TOOLS GABUNGAN\x1b[0;1m.\x1b[0;1m^_^')
+    time.sleep(2)
+    os.system('clear')
+    os.system('python2 resty577.py')
+    time.sleep(3)
+    os.system('clear')
+    print
+    print '\x1b[34m+---------------------------+'
+    print '\x1b[32m|\x1b[32;1mAuthor :\x1b[0;1m Edi               \x1b[32m|'
+    print '\x1b[32m|\x1b[32;1mFB     :\x1b[0;1m Edi Garsell       \x1b[32m|'
+    print '\x1b[32m|\x1b[32;1mYoutube:\x1b[0;1m Edi ID            \x1b[32m|'
+    print '\x1b[34m+---------------------------+\x1b[36;1m'
+    os.system('date')
+    print
+    print '\x1b[34m--------------------------'
+    print '\x1b[0;1m[\x1b[31m++\x1b[0;1m]\x1b[32m MENU:'
+    print '\x1b[34m--------------------------'
+    print '\x1b[0;1m[\x1b[31m01\x1b[0;1m]\x1b[32m DARK-FB'
+    print '\x1b[0;1m[\x1b[31m02\x1b[0;1m]\x1b[32m autoMBF'
+    print '\x1b[0;1m[\x1b[31m03\x1b[0;1m]\x1b[32m 35 TOOLS TERMUX'
+    print '\x1b[0;1m[\x1b[31m04\x1b[0;1m]\x1b[32m Hack Facebook NARGET'
+    print '\x1b[0;1m[\x1b[31m05\x1b[0;1m]\x1b[32m MBF'
+    print '\x1b[0;1m[\x1b[31m06\x1b[0;1m]\x1b[32m Brute'
+    print '\x1b[0;1m[\x1b[31m07\x1b[0;1m]\x1b[32m Cloning Yahoo'
+    print '\x1b[0;1m[\x1b[31m08\x1b[0;1m]\x1b[32m phising WEEMAN'
+    print '\x1b[0;1m[\x1b[31m09\x1b[0;1m]\x1b[32m Trik buat script Devace'
+    print '\x1b[0;1m[\x1b[31m10\x1b[0;1m]\x1b[32m Profil Guard'
+    print '\x1b[0;1m[\x1b[31m11\x1b[0;1m]\x1b[32m Spam Call'
+    print '\x1b[0;1m[\x1b[31m12\x1b[0;1m]\x1b[32m Spam Call II'
+    print '\x1b[0;1m[\x1b[31m13\x1b[0;1m]\x1b[32m SPAM SMS'
+    print '\x1b[0;1m[\x1b[31m14\x1b[0;1m]\x1b[32m Delete Teman dll'
+    print '\x1b[0;1m[\x1b[31m15\x1b[0;1m]\x1b[32m Auto Add Teman'
+    print '\x1b[0;1m[\x1b[31m00\x1b[0;1m]\x1b[32m \x1b[31mKeluar'
+    print '\x1b[34m--------------------------'
+    print '\x1b[0;1m[\x1b[31m++\x1b[0;1m]\x1b[32m Massukan pilihan Anda\x1b[0;1m:'
+    pilih = raw_input(W + '\x1b[32m==\x1b[31m>\x1b[0;1m: ')
+    if pilih == '1' or pilih == '01':
+        os.system('clear')
+        os.system('git clone https://github.com/Edi-nasa47/DARK-FB.git')
+        os.system('mv DARK-FB $HOME')
+        os.system('cd $HOME;cd DARK-FB;python2 dark.py')
+        print
+    elif pilih == '2' or pilih == '02':
+        os.system('clear')
+        os.system('git clone https://github.com/Edi-nasa47/autombf.git')
+        os.system('mv autombf $HOME')
+        os.system('cd $HOME;cd autombf;python2 mayat.py')
+        print
+    elif pilih == '3' or pilih == '03':
+        os.system('clear')
+        os.system('git clone https://github.com/Rusmana-ID/rus.git')
+        os.system('mv rus $HOME')
+        os.system('cd $HOME;cd rus;sh v2.sh')
+    elif pilih == '4' or pilih == '04':
+        os.system('clear')
+        os.system('git clone https://github.com/blackcodercrush/hack-facebook-teman.git')
+        os.system('mv hack-facebook-teman $HOME')
+        os.system('cd $HOME;cd hack-facebook-teman;python2 hack-fb.py')
+        print
+    elif pilih == '5' or pilih == '05':
+        os.system('clear')
+        os.system('git clone https://github.com/Edi-nasa47/1.git')
+        os.system('mv 1 $HOME')
+        os.system('cd $HOME;cd 1;python2 MBF.py')
+        print
+    elif pilih == '6' or pilih == '06':
+        os.system('clear')
+        os.system('git clone https://github.com/Edi-nasa47/3.git')
+        os.system('mv 3 $HOME')
+        os.system('cd $HOME;cd 3;python2 brute.py')
+        print
+    elif pilih == '7' or pilih == '07':
+        os.system('clear')
+        os.system('git clone https://github.com/Edi-nasa47/2.git')
+        os.system('mv 2 $HOME')
+        os.system('cd $HOME;cd 2;python2 boss.py')
+        print
+    elif pilih == '8' or pilih == '08':
+        os.system('clear')
+        os.system('pkg update && pkg upgrade')
+        os.system('pkg install git')
+        os.system('termux-setup-storage')
+        os.system('cd storage')
+        os.system('cd downloads')
+        os.system('git clone https://github.com/evait-security/weeman.git')
+        os.system('mv weeman $HOME')
+        os.system('cd $HOME;cd weeman;python2 weeman.py')
+        print
+    elif pilih == '9' or pilih == '09':
+        os.system('clear')
+        os.system('git clone https://github.com/Ubaii/script-deface-creator.git')
+        os.system('mv script-deface-creator $HOME')
+        os.system('cd $HOME;cd script-deface-creator;python2 create.py')
+    elif pilih == '10':
+        os.system('clear')
+        os.system('git clone https://github.com/Edi-nasa47/13.git')
+        os.system('mv 13 $HOME')
+        os.system('cd $HOME;cd 13;php profile.php')
+        print
+    elif pilih == '11':
+        os.system('clear')
+        os.system('git clone https://github.com/Edi-nasa47/4.git')
+        os.system('mv 4 $HOME')
+        os.system('cd $HOME;cd 4;php SpamCall.php')
+        print
+    elif pilih == '12':
+        os.system('clear')
+        os.system('git clone https://github.com/Edi-nasa47/Call.git')
+        os.system('mv Call $HOME')
+        os.system('cd $HOME;cd Call;php brutal.php')
+        print
+    elif pilih == '13':
+        os.system('clear')
+        os.system('git clone https://github.com/rezadkim/spammerZ.git')
+        os.system('mv $HOME;cd spammerZ;python2 spam.py')
+        print
+    elif pilih == '14':
+        os.system('clear')
+        os.system('git clone https://github.com/Edi-nasa47/Hack9.git')
+        os.system('mv Hack9 $HOME')
+        os.system('cd $HOME;cd Hack9;python2 fbi.py')
+        print
+    elif pilih == '15':
+        os.system('clear')
+        os.system('git clone https://github.com/karjok/add.git ')
+        os.system('mv add $HOME')
+        os.system('cd $HOME;cd add;python add.py')
+        print
+    elif pilih == '0' or pilih == '00':
+        ketik(G + 'TERIMA KASIH')
+        time.sleep(2)
+        ketik(G + 'TELAH MENGGUNAKAN SCRIPT PEMROGRAMAN TOOLS KAMI')
+        time.sleep(2)
+        ketik(G + 'SEMOGA BERMANFAAT\x1b[36;1m...')
+        sys.exit()
+        print
+    else:
+        ketik(G + 'MAAF MASUKKAN PILIHAN ANDA TIDAK TERDAFTAR')
+        time.sleep(1)
+        ketik(G + 'SILAHKAN DI ULANGI KEMBALI')
+        time.sleep(1)
+        ketik(G + 'TERIMA KASIH\x1b[36;1m...')
+        print
+
+
+def hiburan():
+    os.system('clear')
+    ketik(G + 'SEDANG MEMBUKA MENU UNTUK HIBURAN\x1b[0;1m.\x1b[0;1m^_^')
+    time.sleep(3)
+    os.system('clear')
+    print
+    print '\x1b[34m+---------------------------+'
+    print '\x1b[32m|\x1b[32;1mAuthor :\x1b[0;1m Edi               \x1b[32m|'
+    print '\x1b[32m|\x1b[32;1mFB     :\x1b[0;1m Edi Garsell       \x1b[32m|'
+    print '\x1b[32m|\x1b[32;1mYoutube:\x1b[0;1m Edi ID            \x1b[32m|'
+    print '\x1b[34m+---------------------------+\x1b[36;1m'
+    os.system('date')
+    print
+    print '\x1b[34m--------------------------'
+    print '\x1b[0;1m[\x1b[31m+\x1b[0;1m]\x1b[32m MENU:'
+    print '\x1b[34m--------------------------'
+    print '\x1b[0;1m[\x1b[31m1\x1b[0;1m]\x1b[32m Visualizer'
+    print '\x1b[0;1m[\x1b[31m2\x1b[0;1m]\x1b[32m YouTube-dl'
+    print '\x1b[0;1m[\x1b[31m0\x1b[0;1m]\x1b[32m \x1b[31mKeluar'
+    print '\x1b[34m--------------------------'
+    print '\x1b[0;1m[\x1b[31m+\x1b[0;1m]\x1b[32m Massukan pilihan Anda\x1b[0;1m:'
+    pilih = raw_input(W + '\x1b[32m=\x1b[31m>\x1b[0;1m: ')
+    if pilih == '1':
+        os.system('clear')
+        os.system('git clone https://github.com/Edi-nasa47/Visualizer.git')
+        os.system('mv Visualizer $HOME')
+        os.system('cd $HOME;cd Visualizer;bash MEIZU;bash Yes')
+        print
+    elif pilih == '2':
+        os.system('clear')
+        os.system('git clone https://github.com/Edi-nasa47/super.git')
+        os.system('mv super $HOME')
+        os.system('cd $HOME;cd super;bash news')
+        print
+        print '\x1b[34m--------------------------'
+        ketik(G + 'PENGINSTALAN SELESAI DI INSTALL BROW')
+        ketik(G + 'SEKARANG BUKA YOUTUBE ANDA OKE')
+        ketik(G + 'LANGKAH SELANJUTNYA CARI VIDEO YOUTUBE')
+        ketik(G + 'YANG MAU ANDA DOWNLOAD')
+        ketik(G + 'PUTAR DULU VIDEONYA BROW SEBENTAR')
+        ketik(G + 'SETELAH ITU KLIK BAGIKAN')
+        ketik(G + 'MELALUI APLIKASI TERMUX ANDA')
+        print
+    elif pilih == '0':
+        ketik(G + 'TERIMA KASIH SAHABAT YOUTUBER')
+        time.sleep(2)
+        ketik(G + 'TELAH MENGGUNAKAN SCRIPT PEMOGRAMAN TOOLS KAMI')
+        time.sleep(2)
+        ketik(G + 'SEMOGA BERMANFAAT\x1b[36;1m...')
+        sys.exit()
+        print
+    else:
+        ketik(G + 'MAAF MASUKKAN PILIHAN ANDA TIDAK TERDAFTAR')
+        time.sleep(1)
+        ketik(G + 'SILAHKAN DI ULANGI KEMBALI')
+        time.sleep(1)
+        ketik(G + 'TERIMA KASIH\x1b[36;1m...')
+        print
+
+
+def kalkulator():
+    os.system('clear')
+    ketik(G + 'SEDANG MEMBUKA MENU KALKULATOR DLL\x1b[0;1m.\x1b[0;1m^_^')
+    time.sleep(3)
+    os.system('clear')
+    print
+    print '\x1b[34m+---------------------------+'
+    print '\x1b[32m|\x1b[32;1mAuthor :\x1b[0;1m Edi               \x1b[32m|'
+    print '\x1b[32m|\x1b[32;1mFB     :\x1b[0;1m Edi Garsell       \x1b[32m|'
+    print '\x1b[32m|\x1b[32;1mYoutube:\x1b[0;1m Edi ID            \x1b[32m|'
+    print '\x1b[34m+---------------------------+\x1b[36;1m'
+    os.system('date')
+    print
+    print '\x1b[34m--------------------------'
+    print '\x1b[0;1m[\x1b[31m+\x1b[0;1m]\x1b[32m MENU:'
+    print '\x1b[34m--------------------------'
+    print '\x1b[0;1m[\x1b[31m1\x1b[0;1m]\x1b[32m Kalkulator'
+    print '\x1b[0;1m[\x1b[31m0\x1b[0;1m]\x1b[32m \x1b[31mKeluar'
+    print '\x1b[34m--------------------------'
+    print '\x1b[0;1m[\x1b[31m+\x1b[0;1m]\x1b[32m Massukan pilihan Anda\x1b[0;1m:'
+    pilih = raw_input(W + '\x1b[32m=\x1b[31m>\x1b[0;1m: ')
+    if pilih == '0':
+        ketik(G + 'Terima kasih')
+        time.sleep(2)
+        ketik(G + 'Telah menggunakan pemograman sederhana Kami')
+        time.sleep(2)
+        ketik(G + 'semoga bermanfaat\x1b[36;1m...')
+        print
+    elif pilih == '1':
+        os.system('clear')
+
+        def tambah(a, b):
+            tambah = a + b
+            return tambah
+
+        def kalian(a, b):
+            kalian = a * b
+            return kalian
+
+        def kurangan(a, b):
+            kurangan = a - b
+            return kurangan
+
+        os.system('clear')
+        print '  \x1b[34m+--------------------------------------+'
+        print '  \x1b[33;1m| \x1b[32mSELAMAT DATANG DI PROGRAM KALKULATOR \x1b[33;1m|\x1b[33;1m'
+        print '  \x1b[34m+--------------------------------------+'
+        time.sleep(1)
+        ketik(G + '\x1b[0;1m[\x1b[31m+\x1b[0;1m]\x1b[32m Masukkan angka ke \x1b[0;1m1')
+        a = input('\x1b[32m=\x1b[31m>\x1b[0;1m: ')
+        ketik(G + '\x1b[0;1m[\x1b[31m+\x1b[0;1m]\x1b[32m Masukkan angka ke \x1b[0;1m2')
+        b = input('\x1b[32m=\x1b[31m>\x1b[0;1m: ')
+        print '\x1b[34m--------------------------'
+        ketik(G + 'Harap sabar menunggu\x1b[36;1m...')
+        time.sleep(3)
+        os.system('clear')
+        print '\x1b[34m--------------------------'
+        print '\x1b[0;1m[\x1b[31m+\x1b[0;1m]\x1b[32m \x1b[32mMENU KALKULATOR'
+        print '\x1b[34m--------------------------'
+        print '\x1b[0;1m[\x1b[31m1\x1b[0;1m]\x1b[32m \x1b[32mPertambahan'
+        print '\x1b[0;1m[\x1b[31m2\x1b[0;1m]\x1b[32m \x1b[32mPerkalian'
+        print '\x1b[0;1m[\x1b[31m3\x1b[0;1m]\x1b[32m \x1b[32mPengurangan'
+        print '\x1b[34m--------------------------'
+        print '\x1b[0;1m[\x1b[31m+\x1b[0;1m]\x1b[32m \x1b[32mMasukkan pilihan anda\x1b[0;1m:'
+        c = input('\x1b[32m=\x1b[31m>\x1b[0;1m: ')
+        if c == 1:
+            print '\x1b[0;1m[\x1b[31m+\x1b[0;1m]\x1b[32m Hasil perhitungan anda adalah\x1b[0;1m:', tambah(a, b)
+        elif c == 2:
+            print '\x1b[0;1m[\x1b[31m+\x1b[0;1m]\x1b[32m Hasil perhitungan anda adalah\x1b[0;1m:', kalian(a, b)
+        elif c == 3:
+            print '\x1b[0;1m[\x1b[31m+\x1b[0;1m]\x1b[32m Hasil perhitungan anda adalah\x1b[0;1m:', kurangan(a, b)
+            print
+
+
+def android():
+    os.system('clear')
+    ketik(G + 'SEDANG MEMBUKA MENU')
+    ketik(G + 'UNTUK MEMATIKAN HP ANDROID ANDA SENDIRI\x1b[0;1m.\x1b[0;1m^_^')
+    time.sleep(2)
+    os.system('clear')
+    print
+    print '\x1b[34m+---------------------------+'
+    print '\x1b[32m|\x1b[32;1mAuthor :\x1b[0;1m Edi               \x1b[32m|'
+    print '\x1b[32m|\x1b[32;1mFB     :\x1b[0;1m Edi Garsell       \x1b[32m|'
+    print '\x1b[32m|\x1b[32;1mYoutube:\x1b[0;1m Edi ID            \x1b[32m|'
+    print '\x1b[34m+---------------------------+\x1b[36;1m'
+    os.system('date')
+    print
+    print '\x1b[34m------------------'
+    print '\x1b[0;1m[\x1b[31m+\x1b[0;1m]\x1b[32m MENU:'
+    print '\x1b[34m------------------'
+    print '\x1b[0;1m[\x1b[31m1\x1b[0;1m]\x1b[32m Matikan HP'
+    print '\x1b[0;1m[\x1b[31m2\x1b[0;1m]\x1b[32m Muat ulang HP'
+    print '\x1b[0;1m[\x1b[31m0\x1b[0;1m]\x1b[32m \x1b[31mKeluar'
+    print '\x1b[34m------------------'
+    pilih = raw_input(W + '\x1b[0;1m[\x1b[31m+\x1b[0;1m]\x1b[32m pilih No\x1b[0;1m: ')
+    if pilih == '1':
+        os.system('clear')
+        print 'dalam waktu 5 detik HP anda akan mati'
+        print 'silahkan Tunggu\x1b[36;1m...'
+        time.sleep(5)
+        os.system('/system/bin/reboot -p')
+        print
+    elif pilih == '3':
+        os.system('clear')
+        print 'dalam waktu 5 detik HP anda akan muat ulang'
+        print 'silahkan Tunggu\x1b[36;1m...'
+        time.sleep(5)
+        os.system('/system/bin/reboot')
+    elif pilih == '0':
+        ketik(G + 'TERIMA KASIH SAHABAT YOUTUBER')
+        time.sleep(2)
+        ketik(G + 'TELAH MENGGUNAKAN SCRIPT PEMOGRAMAN TOOLS KAMI')
+        time.sleep(2)
+        ketik(G + 'SEMOGA BERMANFAAT\x1b[36;1m...')
+        sys.exit()
+        print
+    else:
+        ketik(G + 'MAAF MASUKKAN PILIHAN ANDA TIDAK TERDAFTAR')
+        time.sleep(1)
+        ketik(G + 'SILAHKAN DI ULANGI KEMBALI')
+        time.sleep(1)
+        ketik(G + 'TERIMA KASIH\x1b[36;1m...')
+        print
+
+
+def keluar():
+    time.sleep(1)
+    ketik(G + 'TERIMA KASIH SAHABAT YOUTUBER')
+    time.sleep(2)
+    ketik(G + 'TELAH MENGGUNAKAN SCRIPT PEMOGRAMAN TOOLS KAMI')
+    time.sleep(2)
+    ketik(G + 'SEMOGA BETMANFAAT\x1b[36;1m...')
+    sys.exit()
+    print
+
+
+ulang = 'y'
+while ulang != 't':
+    os.system('clear')
+    print
+    print '\x1b[34m+---------------------------+'
+    print '\x1b[32m|\x1b[32;1mAuthor :\x1b[0;1m Edi               \x1b[32m|'
+    print '\x1b[32m|\x1b[32;1mFB     :\x1b[0;1m Edi Garsell       \x1b[32m|'
+    print '\x1b[32m|\x1b[32;1mYoutube:\x1b[0;1m Edi ID            \x1b[32m|'
+    print '\x1b[34m+---------------------------+\x1b[36;1m'
+    os.system('date')
+    print
+    meizu()
+    print '\x1b[0;1m[\x1b[31m+\x1b[0;1m]\x1b[32m Massukan pilihan Anda\x1b[0;1m:'
+    pilih = raw_input(W + '\x1b[32m=\x1b[31m>\x1b[0;1m: ')
+    if pilih == '1':
+        install()
+    elif pilih == '2':
+        sosial()
+    elif pilih == '3':
+        tools()
+    elif pilih == '4':
+        hiburan()
+    elif pilih == '5':
+        kalkulator()
+    elif pilih == '6':
+        android()
+    elif pilih == '0':
+        keluar()
+        print
+        time.sleep(3)
+    ulang = raw_input(G + 'MAU KEMBALI LAGI KE MENU PILIHAN [\x1b[0;1my\x1b[31m/\x1b[0;1mt\x1b[32m]\x1b[0;1m: ')
+
+if __name__ == '__main__':
+    meizu()
